@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping(UrlConstants.USER_API_ROUTE)
-class UserController {
+class Controller {
 
 
     @GetMapping("")
