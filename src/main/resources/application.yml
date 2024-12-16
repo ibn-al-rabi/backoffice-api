@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: backend
+  profiles:
+    active: local
+
+
+portal:
+  origin: http://localhost:3000
