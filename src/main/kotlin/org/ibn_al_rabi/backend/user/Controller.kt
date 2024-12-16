@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PutMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
-@RestController
+@RestController("UserController")
 @RequestMapping(UrlConstants.USER_API_ROUTE)
 class Controller {
 

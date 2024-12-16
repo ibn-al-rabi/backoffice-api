@@ -6,4 +6,5 @@ object UrlConstants {
 
     const val ACTIVE_API_ROUTE = API_V1_ROUTE
     const val USER_API_ROUTE = "$ACTIVE_API_ROUTE/user"
+    const val LOGIN_WITH_PROVIDER_ROUTE = "$ACTIVE_API_ROUTE/loginWithProvider"
 }
